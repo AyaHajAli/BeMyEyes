@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Arrière-plan (optionnel) -->
+    <item android:drawable="@android:color/transparent"/>
+
+    <!-- Image centrée avec une taille de 50dp -->
+    <item
+            android:width="100dp"
+            android:height="50dp"
+            android:gravity="center"
+            android:drawable="@drawable/sound"/>
+
+</layer-list>

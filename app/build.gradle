@@ -8,13 +8,12 @@ android {
 
     defaultConfig {
         applicationId "com.example.myapplication"
-        minSdk 31
-        targetSdk 34
+        minSdkVersion 26    // Mets au moins 26
+        targetSdkVersion 33
         versionCode 1
         versionName "1.0"
-
-        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
+
 
     buildTypes {
         release {
@@ -29,6 +28,7 @@ android {
 }
 
 dependencies {
+    implementation 'com.google.mlkit:text-recognition:16.0.0'
 
     implementation libs.appcompat
     implementation libs.material
